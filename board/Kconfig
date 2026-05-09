@@ -444,4 +444,11 @@ menu "Device Support"
         default n
         help
           Say Y if you want to include support for NOTE 12
+
+    config REALME_RMX2180
+        bool "Support Realme c15/c12/c11"
+        default n
+        help
+          Say Y if you want to include support for Realme c15/c12/c11
+
 endmenu
